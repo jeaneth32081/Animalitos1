@@ -1,0 +1,104 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body>
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Animales</h1>
+	</div>
+	<div data-role="content" style="background-image:url(Images/AD/fondito4.jpg)">	
+		<ul data-role="listview">
+         <div align="center" data-role="controlgroup" data-type="vertical">
+                <div style="width:70%">
+				<a href="#page2" data-role="button" class="primero">
+                	Animales Domesticos
+                </a>
+            	<a href="#page3" data-role="button" class="primero">
+                	Animales Salvajes
+                </a>
+			</div>
+            </div>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Castro Cisneros Josselin </h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header" style="background-color:#00F" >
+    	<a href="#page" data-role="button">
+        Atrás
+        </a>
+		<h1 class="Titulo">Animales Domesticos</h1>
+	</div>
+	<div data-role="content" style="background-image:url(Images/AD/fondito6.jpg)">
+	  <p>&nbsp;</p>
+	  <p><a href="#" data-role="button" id="cotorro">
+        	<img src="Images/AD/cotorro.jpg" width="365" height="194"></a>
+           <p>&nbsp;</p>
+           <p><a href="#" data-role="button" id="perrito">
+        	<img src="Images/AD/perrob.jpg" width="365" height="194"></a> 
+            <p>&nbsp;</p>
+            <p><a href="#" data-role="button" id="gatito">
+        	<img src="Images/AD/gato.jpg" width="365" height="194"></a>
+            <p>&nbsp;</p>
+            <p><a href="#" data-role="button" id="tortuga">
+        	<img src="Images/AD/tortuga.jpg" width="365" height="194"></a>
+             <p>&nbsp;</p>
+             <p><a href="#" data-role="button" id="hamster">
+        	<img src="Images/AD/hamster.jpg" width="365" height="194"></a> 
+            <p>&nbsp;</p>
+            <p><a href="#" data-role="button" id="pollito">
+        	<img src="Images/AD/pollito.jpg" width="365" height="194"></a> 
+            
+	</div>
+	<div data-role="footer">
+		<h4>Producciones Castro</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header" style="background-color:#00F" >
+    	<a href="#page" data-role="button">
+        Atrás
+        </a>
+		<h1 class="Titulo">Animales Salvajes</h1>
+	</div>
+	<div data-role="content" style="background-image:
+    url(Images/AD/fondito6.jpg)">
+    <p>&nbsp;</p>
+    	<p><a href="#" data-role="button" id="osito">
+        	<img src="Images/AS/osop.jpg" width="365" height="194"></a>
+		<p>&nbsp;</p>
+        <p><a href="#" data-role="button" id="pinguino">
+        	<img src="Images/AS/pinguino.jpg" width="365" height="194"></a>
+        <p>&nbsp;</p>
+         <p><a href="#" data-role="button" id="mono">
+        	<img src="Images/AS/mono.jpg" width="365" height="194"></a>
+           <p>&nbsp;</p> 
+            <p><a href="#" data-role="button" id="elefante">
+        	<img src="Images/AS/elefante.jpg" width="365" height="194"></a> 
+            <p>&nbsp;</p> 
+                <p><a href="#" data-role="button" id="tigre">
+        	<img src="Images/AS/tigre.jpg" width="365" height="194"></a>
+            <p>&nbsp;</p>
+                 <p><a href="#" data-role="button" id="serpiente">
+        	<img src="Images/AS/serpiente.jpg" width="365" height="194"></a>
+	</div>
+	<div data-role="footer">
+		<h4>Producciones Castro</h4>
+	</div>
+</div>
+
+
+
+</body>
+</html>
